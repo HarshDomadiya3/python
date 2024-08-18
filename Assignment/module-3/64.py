@@ -1,0 +1,5 @@
+numbers = list(map(float, input("Enter decimal numbers separated by spaces: ").split()))
+maximum = max(numbers)
+minimum = min(numbers)
+print(f"The maximum number is {maximum}")
+print(f"The minimum number is {minimum}")
